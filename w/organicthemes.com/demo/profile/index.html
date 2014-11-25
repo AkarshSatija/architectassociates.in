@@ -1,0 +1,463 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+
+<!-- Mirrored from organicthemes.com/demo/profile/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Nov 2014 11:53:02 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+
+<meta charset="UTF-8">
+
+<!-- Mobile View -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title> Profile Theme</title>
+<link rel="Shortcut Icon" href="wp-content/themes/organic_profile/images/favicon.ico" type="image/x-icon">
+
+<style type="text/css" media="screen">
+
+body {
+-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+
+.container a, .container a:link, .container a:visited {
+color: #99cc33;}
+
+.container a:hover, .container a:focus, .container a:active,
+#wrap .widget ul.menu li a:hover, #wrap .widget ul.menu li ul.sub-menu li a:hover,
+#wrap .widget ul.menu .current_page_item a, #wrap .widget ul.menu .current-menu-item a {
+color: #99cc33;}
+
+.container h1 a, .container h2 a, .container h3 a, .container h4 a, .container h5 a, .container h6 a,
+.container h1 a:link, .container h2 a:link, .container h3 a:link, .container h4 a:link, .container h5 a:link, .container h6 a:link,
+.container h1 a:visited, .container h2 a:visited, .container h3 a:visited, .container h4 a:visited, .container h5 a:visited, .container h6 a:visited {
+color: #333333;}
+
+.container h1 a:hover, .container h2 a:hover, .container h3 a:hover, .container h4 a:hover, .container h5 a:hover, .container h6 a:hover,
+.container h1 a:focus, .container h2 a:focus, .container h3 a:focus, .container h4 a:focus, .container h5 a:focus, .container h6 a:focus,
+.container h1 a:active, .container h2 a:active, .container h3 a:active, .container h4 a:active, .container h5 a:active, .container h6 a:active {
+color: #99cc33;}
+
+.btn:hover, #submit:hover, #searchsubmit:hover, .reply a:hover, .gallery a:hover, a.button:hover, .more-link:hover,
+#comments #respond input#submit:hover, .container .gform_wrapper input.button:hover {
+background-color: #99cc33 !important;}
+</style>
+<link rel="alternate" type="application/rss+xml" title="Profile Theme Feed" href="feed/index.html">
+<link rel="pingback" href="xmlrpc.html">
+
+<!-- Social Buttons -->
+<script src="../../../platform.twitter.com/widgets.js" type="text/javascript"></script>
+<script type="text/javascript" src="../../../apis.google.com/js/plusone.js"></script>
+
+<link rel="alternate" type="application/rss+xml" title="Profile Theme &raquo; Feed" href="feed/index.html" />
+<link rel="alternate" type="application/rss+xml" title="Profile Theme &raquo; Comments Feed" href="comments/feed/index.html" />
+<link rel='stylesheet' id='profile-style-css'  href='wp-content/themes/organic_profile/stylea560.css?ver=3.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='profile-style-mobile-css'  href='wp-content/themes/organic_profile/css/style-mobile5152.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='profile_open_sans-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C600%2C700%2C800%2C800italic%2C700italic%2C600italic%2C400italic%2C300italic&amp;ver=3.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='profile_raleway-css'  href='http://fonts.googleapis.com/css?family=Raleway%3A400%2C300%2C500%2C600%2C700&amp;ver=3.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='profile_merriweather-css'  href='http://fonts.googleapis.com/css?family=Merriweather%3A400%2C700%2C300%2C900&amp;ver=3.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='profile_droid_serif-css'  href='http://fonts.googleapis.com/css?family=Droid+Serif%3A400%2C400italic%2C700%2C700italic&amp;ver=3.9.1' type='text/css' media='all' />
+<link rel='stylesheet' id='organic-shortcodes-css'  href='wp-content/themes/organic_profile/organic-shortcodes/css/organic-shortcodes5152.css?ver=1.0' type='text/css' media='all' />
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='organic-shortcodes-ie8-css'  href='http://organicthemes.com/demo/profile/wp-content/themes/organic_profile/organic-shortcodes/css/organic-shortcodes-ie8.css?ver=1.0' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='font-awesome-css'  href='wp-content/themes/organic_profile/organic-shortcodes/css/font-awesome5152.css?ver=1.0' type='text/css' media='all' />
+<script type='text/javascript' src='wp-content/themes/organic_profile/js/html5shiva560.js?ver=3.9.1'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquerya4e6.js?ver=1.11.0'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min1576.js?ver=1.2.1'></script>
+<script type='text/javascript' src='wp-content/themes/organic_profile/js/hoverIntent857e.js?ver=20131004'></script>
+<script type='text/javascript' src='wp-content/themes/organic_profile/js/superfish857e.js?ver=20131004'></script>
+<script type='text/javascript' src='wp-content/themes/organic_profile/js/jquery.fitVids857e.js?ver=20131004'></script>
+<script type='text/javascript' src='wp-content/themes/organic_profile/js/jquery.isotope44b1.js?ver=20130729'></script>
+<script type='text/javascript' src='wp-content/themes/organic_profile/js/jquery.flexslider857e.js?ver=20131004'></script>
+<script type='text/javascript' src='wp-content/themes/organic_profile/js/twitter.min857e.js?ver=20131004'></script>
+<script type='text/javascript' src='wp-content/themes/organic_profile/organic-shortcodes/js/jquery.modal.min44b1.js?ver=20130729'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.html?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.9.1" />
+
+			<script type="text/javascript">
+				var _gaq = _gaq || [];
+
+									_gaq.push(['_setAccount', 'UA-1571742-11']);
+										_gaq.push(['_trackPageview']);
+									
+				
+				(function() {
+				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				})();
+			</script>
+
+<!-- Begin Inspectlet Embed Code -->
+<script type="text/javascript" id="inspectletjs">
+	var __insp = __insp || [];
+	__insp.push(['wid', 2586752761]);
+	(function() {
+		function __ldinsp(){var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://www.inspectlet.com/inspect/2586752761.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); }
+		if (window.attachEvent){
+			window.attachEvent('onload', __ldinsp);
+		}else{
+			window.addEventListener('load', __ldinsp, false);
+		}
+	})();
+</script>
+<!-- End Inspectlet Embed Code -->
+
+			<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #F9F9F9; }
+</style>
+
+</head>
+
+<body class="home blog custom-background">
+
+<!-- BEGIN #wrap -->
+<div id="wrap">
+	
+	<!-- BEGIN #navigation -->
+	<nav id="navigation" class="navigation-main mobile-nav" role="navigation">
+		
+		<span class="menu-toggle"><i class="fa fa-bars"></i></span>
+		
+		<div class="menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-469" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-469"><a href="index.html">Home</a></li>
+<li id="menu-item-511" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-511"><a href="professional/index.html">About</a></li>
+<li id="menu-item-508" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-508"><a href="shortcodes/index.html">Shortcodes</a>
+<ul class="sub-menu">
+	<li id="menu-item-505" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-505"><a href="buttons/index.html">Buttons</a></li>
+	<li id="menu-item-591" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-591"><a href="bar-ratings/index.html">Bar Ratings</a></li>
+	<li id="menu-item-512" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-512"><a href="icons/index.html">Icons</a></li>
+	<li id="menu-item-516" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-516"><a href="alert-boxes/index.html">Alert Boxes</a></li>
+	<li id="menu-item-506" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-506"><a href="columns/index.html">Columns</a></li>
+	<li id="menu-item-518" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-518"><a href="headlines/index.html">Headlines</a></li>
+	<li id="menu-item-507" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-507"><a href="gallery/index.html">Gallery</a></li>
+	<li id="menu-item-513" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-513"><a href="accordion/index.html">Accordion</a></li>
+	<li id="menu-item-514" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-514"><a href="tabs/index.html">Tabs</a></li>
+	<li id="menu-item-515" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-515"><a href="toggles/index.html">Toggles</a></li>
+	<li id="menu-item-523" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-523"><a href="modal-box/index.html">Modal Box</a></li>
+</ul>
+</li>
+<li id="menu-item-485" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-485"><a href="#blank">Templates</a>
+<ul class="sub-menu">
+	<li id="menu-item-520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-520"><a href="slideshow/index.html">Slideshow</a></li>
+	<li id="menu-item-519" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-519"><a href="portfolio/index.html">Portfolio</a></li>
+	<li id="menu-item-510" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-510"><a href="full-width/index.html">Full Width</a></li>
+	<li id="menu-item-521" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-521"><a href="site-archives/index.html">Site Archives</a></li>
+</ul>
+</li>
+<li id="menu-item-517" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-517"><a href="blog/index.html">Blog</a></li>
+<li id="menu-item-509" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-509"><a href="contact/index.html">Contact</a></li>
+<li id="menu-item-614" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-614"><a href="http://www.organicthemes.com/themes/checkout?edd_action=add_to_cart&amp;download_id=42825">Buy</a></li>
+</ul></div>	
+	<!-- END #navigation -->			
+	</nav>
+	
+		
+	<!-- BEGIN #header -->
+	<div id="header" class="home-header" data-type="background" data-speed="10"  style="background-image: url(wp-content/themes/organic_profile/images/background.jpg);">
+		
+		<!-- BEGIN #header-info -->
+		<div id="header-info">
+	
+			<!-- BEGIN .row -->
+			<div class="row">
+			
+								
+										
+						<h1 id="logo">
+							<a href="index.html">
+								<img src="wp-content/themes/organic_profile/images/logo.png" alt="" />
+								<span class="logo-text">Profile Theme</span>
+							</a>
+						</h1>
+						
+						
+							
+			<!-- END .row -->
+			</div>
+			
+			<!-- BEGIN #navigation -->
+			<nav id="navigation" class="navigation-main desktop-nav home-nav" role="navigation">
+				
+				<div class="menu-main-menu-container"><ul id="menu-main-menu-1" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-469"><a href="index.html">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-511"><a href="professional/index.html">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-508"><a href="shortcodes/index.html">Shortcodes</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-505"><a href="buttons/index.html">Buttons</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-591"><a href="bar-ratings/index.html">Bar Ratings</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-512"><a href="icons/index.html">Icons</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-516"><a href="alert-boxes/index.html">Alert Boxes</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-506"><a href="columns/index.html">Columns</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-518"><a href="headlines/index.html">Headlines</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-507"><a href="gallery/index.html">Gallery</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-513"><a href="accordion/index.html">Accordion</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-514"><a href="tabs/index.html">Tabs</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-515"><a href="toggles/index.html">Toggles</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-523"><a href="modal-box/index.html">Modal Box</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-485"><a href="#blank">Templates</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-520"><a href="slideshow/index.html">Slideshow</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-519"><a href="portfolio/index.html">Portfolio</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-510"><a href="full-width/index.html">Full Width</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-521"><a href="site-archives/index.html">Site Archives</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-517"><a href="blog/index.html">Blog</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-509"><a href="contact/index.html">Contact</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-614"><a href="http://www.organicthemes.com/themes/checkout?edd_action=add_to_cart&amp;download_id=42825">Buy</a></li>
+</ul></div>			
+			<!-- END #navigation -->		
+			</nav>
+		
+		<!-- END #header-info -->
+		</div>
+		
+					<img id="custom-header" src="wp-content/themes/organic_profile/images/background.jpg" height="800" width="1800" alt="Profile Theme" />
+			
+	<!-- END #header -->
+	</div>
+<!-- BEGIN .container -->
+<div class="container home">
+
+			
+	<!-- BEGIN #homepage -->
+	<div id="homepage">
+	
+		<!-- BEGIN .row -->
+		<div class="row">
+			
+			<!-- BEGIN .twelve columns -->
+			<div class="twelve columns">
+			
+				
+<div class="featured-page">
+	
+			<div class="profile-img">
+			<div class="feature-img cover-img"  style="background-image: url(files/2012/12/profile_img.png);" >
+				<img src="files/2012/12/profile_img.png" class="attachment-profile-featured-square wp-post-image" alt="profile_img" />			</div>
+		</div>
+		
+	<div class="information has-profile">
+	
+					<script type="text/javascript">
+
+/**
+ * How to use fetch function:
+ * @param {string} Your Twitter widget ID.
+ * @param {string} The ID of the DOM element you want to write results to. 
+ * @param {int} Optional - the maximum number of tweets you want returned. Must
+ *     be a number between 1 and 20.
+ * @param {boolean} Optional - set true if you want urls and hash
+       tags to be hyperlinked!
+ * @param {boolean} Optional - Set false if you dont want user photo /
+ *     name for tweet to show.
+ * @param {boolean} Optional - Set false if you dont want time of tweet
+ *     to show.
+ * @param {function/string} Optional - A function you can specify to format
+ *     tweet date/time however you like. This function takes a JavaScript date
+ *     as a parameter and returns a String representation of that date.
+ *     Alternatively you may specify the string 'default' to leave it with
+ *     Twitter's default renderings.
+ * @param {boolean} Optional - Show retweets or not. Set false to not show.
+ * @param {function/string} Optional - A function to call when data is ready. It
+ *     also passes the data to this function should you wish to manipulate it
+ *     yourself before outputting. If you specify this parameter you  must
+ *     output data yourself!
+ */
+
+twitterFetcher.fetch('344968668209352704', '', 1, true, false, true, '', false, handleTweets);
+
+function handleTweets(tweets){
+	var x = tweets.length;
+	var n = 0;
+	var element = document.getElementById('tweets');
+	var html = '<span class="twitter-arrow"></span><div class="twitter-feed">';
+	while(n < x) {
+		html += '' + tweets[n] + '';
+		n++;
+	}
+	html += '</div>';
+	element.innerHTML = html;
+}
+      
+</script>			<div id="tweets"></div>
+				
+					
+			<div class="social-menu"><ul id="menu-social-menu" class="social-icons"><li id="menu-item-630" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-630"><a href="http://facebook.com/"><span>Facebook</span></a></li>
+<li id="menu-item-631" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-631"><a href="http://twitter.com/"><span>Twitter</span></a></li>
+<li id="menu-item-632" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-632"><a href="http://github.com/"><span>Github</span></a></li>
+<li id="menu-item-633" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-633"><a href="http://pinterest.com/"><span>Pinterest</span></a></li>
+<li id="menu-item-634" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-634"><a href="http://plus.google.com/"><span>Google</span></a></li>
+<li id="menu-item-635" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-635"><a href="http://stackexchange.com/"><span>Stack Exchange</span></a></li>
+<li id="menu-item-636" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-636"><a href="http://linkedin.com/"><span>LinkedIn</span></a></li>
+<li id="menu-item-637" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-637"><a href="http://dribbble.com/"><span>Dribbble</span></a></li>
+<li id="menu-item-638" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-638"><a href="http://vine.co/"><span>Vine</span></a></li>
+<li id="menu-item-639" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-639"><a href="http://youtube.com/"><span>YouTube</span></a></li>
+<li id="menu-item-640" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-640"><a href="http://instagram.com/"><span>Instagram</span></a></li>
+<li id="menu-item-641" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-641"><a href="http://wordpress.com/"><span>WordPress</span></a></li>
+<li id="menu-item-642" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-642"><a href="#"><span>Link</span></a></li>
+</ul></div>			
+				
+		<h2 class="headline text-center">I&#8217;m A Professional Dude</h2>
+		<div class="organic-column one-half">Lorem ipsum sample link dolor sit amet, consectetur adipiscing elit. Sed cursus, nulla a egestas tristique, libero leo sodales sapien, vel luctus libero nisi vel nibh. Suspendisse ultrices, leo quis dignissim rutrum, nibh arcu vestibulum velit, eget vehicula sem felis in ante. Donec condimentum sem nec libero accumsan sed accumsan odio luctus. Curabitur ac vehicula quam. Sed tincidunt, enim sed sollicitudin cursus, elit massa facilisis ligula, eget aliquam lectus libero sed orci. Cras non nisl vel neque egestas euismod. Quisque consequat dapibus consectetur. Cras mattis consectetur fermentum.</div>
+<div class="organic-column one-half last">Maecenas lacus lectus, tincidunt vitae tristique eu, euismod in quam. Praesent euismod suscipit dui, eu ultrices sapien cursus in. Ut in leo ut elit congue mattis. Quisque sagittis, nibh quis scelerisque dictum, eros diam tincidunt urna, id varius lorem libero quis lorem. In cursus justo nec enim convallis et aliquet mi accumsan. Aliquam ultrices blandit lacus, sed dictum felis rhoncus lacinia. Integer vel nunc in ante condimentum mollis eu non nisl. Quisque blandit aliquam ligula, ac ultrices urna auctor in. Vestibulum laoreet, lorem in sodales rhoncus, massa metus mattis odio, sed volutpat massa nibh eget mi.</div><div class="clearboth"></div> <a href="professional/index.html#more-113" class="more-link">Read More</a></p>
+	
+	</div>
+	
+</div>
+
+				
+			<!-- END .twelve columns -->
+			</div>
+			
+		<!-- END .row -->
+		</div>
+	
+	<!-- END #homepage -->
+	</div>
+	
+			
+			
+	<!-- BEGIN #slideshow -->
+	<div id="slideshow">
+	
+		<h2 class="headline borderless text-center">Recent Work</h2>
+
+		<!-- BEGIN .row -->
+		<div class="row">
+		
+			<!-- BEGIN .twelve columns -->
+			<div class="twelve columns">
+				
+				<!-- BEGIN .flexslider -->
+<div class="flexslider loading" data-speed="8000" data-transition="slide">
+
+	<div class="preloader"></div>
+
+	<!-- BEGIN .slides -->
+	<ul class="slides">
+	
+										
+		<li>
+						    			    	<div class="feature-img">
+				    	<a href="2012/12/23/organic-themes/index.html" rel="bookmark"><img src="files/2012/12/screen-03-880x496.jpg" class="attachment-profile-featured-slide wp-post-image" alt="screen-03" /></a>
+			    	</div>
+			    					</li>
+		
+								
+		<li>
+						    			    	<div class="feature-img">
+				    	<a href="2012/12/23/kahuna-host/index.html" rel="bookmark"><img src="files/2012/12/screen-06-880x496.jpg" class="attachment-profile-featured-slide wp-post-image" alt="screen-06" /></a>
+			    	</div>
+			    					</li>
+		
+								
+		<li>
+						    			    	<div class="feature-img">
+				    	<a href="2012/12/23/invulu-branding/index.html" rel="bookmark"><img src="files/2012/12/screen-02-880x496.jpg" class="attachment-profile-featured-slide wp-post-image" alt="screen-02" /></a>
+			    	</div>
+			    					</li>
+		
+								
+		<li>
+						    			    	<div class="feature-img">
+				    	<a href="2012/12/23/logo-design-example/index.html" rel="bookmark"><img src="files/2012/12/screen-05-880x496.jpg" class="attachment-profile-featured-slide wp-post-image" alt="screen-05" /></a>
+			    	</div>
+			    					</li>
+		
+								
+		<li>
+						    			    	<div class="feature-img">
+				    	<a href="2012/12/22/cartoon-character/index.html" rel="bookmark"><img src="files/2012/12/cartoon_character.png" class="attachment-profile-featured-slide wp-post-image" alt="cartoon_character" /></a>
+			    	</div>
+			    					</li>
+		
+						
+	<!-- END .slides -->
+	</ul>
+	
+<!-- END .flexslider -->
+</div>
+
+<img class="screen" src="wp-content/themes/organic_profile/images/screen.png" title="Screen" alt="Screen" />			
+			<!-- END .twelve columns -->
+			</div>
+			
+		<!-- END .row -->
+		</div>
+	
+	<!-- END #slideshow -->
+	</div>
+	
+		
+<!-- END .container -->
+</div>
+
+<div class="clear"></div>
+
+<!-- BEGIN #footer -->
+<div id="footer">
+
+	<!-- BEGIN .row -->
+	<div class="row">
+		
+		<!-- BEGIN .twelve columns -->
+		<div class="twelve columns">
+	
+		    <div class="footer">
+		        <p>Copyright &copy; 2014 &middot; All Rights Reserved &middot; Profile Theme</p>
+		        
+		        <p><a href="http://www.organicthemes.com/themes/profile-theme/" target="_blank">Profile Theme</a> by <a href="http://www.organicthemes.com/" target="_blank">Organic Themes</a> &middot; <a href="feed/index.html" target="_blank">RSS Feed</a> &middot; <a href="wp-login.html">Log in</a></p>
+		    </div>
+	    
+	    <!-- END .twelve columns -->
+		</div>
+	
+	<!-- END .row -->
+	</div>
+
+<!-- END #footer -->
+</div>
+
+<!-- END #wrap -->
+</div>
+
+<script type='text/javascript' src='wp-includes/js/masonry.min0226.js?ver=3.1.2'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/jquery.masonry.min0226.js?ver=3.1.2'></script>
+<script type='text/javascript' src='wp-content/themes/organic_profile/js/jquery.custom857e.js?ver=20131004'></script>
+<script type='text/javascript' src='wp-content/themes/organic_profile/js/navigation857e.js?ver=20131004'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/jquery.ui.core.min2c18.js?ver=1.10.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/jquery.ui.widget.min2c18.js?ver=1.10.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/jquery.ui.accordion.min2c18.js?ver=1.10.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/jquery.ui.mouse.min2c18.js?ver=1.10.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/jquery.ui.resizable.min2c18.js?ver=1.10.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/jquery.ui.draggable.min2c18.js?ver=1.10.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/jquery.ui.button.min2c18.js?ver=1.10.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/jquery.ui.position.min2c18.js?ver=1.10.4'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/jquery.ui.dialog.min2c18.js?ver=1.10.4'></script>
+<script type='text/javascript' src='wp-content/themes/organic_profile/organic-shortcodes/js/jquery.shortcodes44b1.js?ver=20130729'></script>
+<script type='text/javascript' src='wp-includes/js/jquery/ui/jquery.ui.tabs.min2c18.js?ver=1.10.4'></script>
+<script type='text/javascript' src='wp-content/themes/organic_profile/organic-shortcodes/js/tabsd5a6.js?ver=20130609'></script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "../../../connect.facebook.net/en_US/all.js#xfbml=1&appId=246727095428680";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+</body>
+
+<!-- Mirrored from organicthemes.com/demo/profile/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Nov 2014 11:54:44 GMT -->
+</html>

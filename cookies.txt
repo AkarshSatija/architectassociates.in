@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+organicthemes.com	TRUE	/demo/	FALSE	1999999999	wordpress_test_cookie	WP+Cookie+check
+.google.com	TRUE	/	FALSE	1999999999	NID	67=Fs85suX4t8B0OklkKvAmbtDIUDk4cea_QCbxpzqtG8I4tAQyvJtTjJPe_1nmjak3E7byaSWZQHeYEGpZXr8gNcMcqaBSEpe3sHjTeyqvutF3lzZzNwtAZjDoTLcA_f06
+

@@ -1,0 +1,87 @@
+HTTrack3.48-19+htsswf+htsjava launched on Tue, 25 Nov 2014 17:22:56 at http://organicthemes.com/demo/profile/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://organicthemes.com/demo/profile/ -O1 "C:\My Web Sites\w" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:22:57	Warning: 	Note: due to organicthemes.com remote robots.txt rules, links beginning with these path will be forbidden: /v4/ (see in the options to disable this)
+17:24:44	Error: 	"Forbidden" (403) at link organicthemes.com/demo/profile/xmlrpc.php (from organicthemes.com/demo/profile/)
+17:25:09	Error: 	"Forbidden" (403) at link organicthemes.com/demo/profile/xmlrpc.php?rsd (from organicthemes.com/demo/profile/)
+17:39:18	Error: 	Exit requested by shell or user
+17:39:20	Warning: 	File not added due to mirror cancel: organicthemes.com/demo/profile/files/2012/12/portfolio_01.jpg
+17:39:20	Warning: 	Retry after error 500 (Internal Server Error) at link organicthemes.com/demo/profile/wp-content/themes/organic_profile/organic-shortcodes/images/spinner.gif (from organicthemes.com/demo/profile/wp-content/themes/organic_profile/organic-shortcodes/css/organic-shortcodes.css?ver=1.0)
+17:39:20	Warning: 	Moved Permanently for organicthemes.com/demo/profile/?p=113
+17:39:20	Warning: 	File has moved from organicthemes.com/demo/profile/?p=113 to http://organicthemes.com/demo/profile/professional/
+17:39:21	Warning: 	Moved Permanently for organicthemes.com/demo/profile/?p=33
+17:39:21	Warning: 	File has moved from organicthemes.com/demo/profile/?p=33 to http://organicthemes.com/demo/profile/shortcodes/
+17:39:21	Warning: 	Moved Permanently for organicthemes.com/demo/profile/?p=74
+17:39:21	Warning: 	File has moved from organicthemes.com/demo/profile/?p=74 to http://organicthemes.com/demo/profile/buttons/
+17:39:21	Warning: 	Moved Permanently for organicthemes.com/demo/profile/?p=586
+17:39:21	Warning: 	File has moved from organicthemes.com/demo/profile/?p=586 to http://organicthemes.com/demo/profile/bar-ratings/
+17:39:21	Warning: 	Moved Permanently for organicthemes.com/demo/profile/?p=147
+17:39:21	Warning: 	File has moved from organicthemes.com/demo/profile/?p=147 to http://organicthemes.com/demo/profile/icons/
+17:39:21	Warning: 	Moved Permanently for organicthemes.com/demo/profile/?p=192
+17:39:21	Warning: 	File has moved from organicthemes.com/demo/profile/?p=192 to http://organicthemes.com/demo/profile/alert-boxes/
+17:39:21	Warning: 	Moved Permanently for organicthemes.com/demo/profile/?p=89
+17:39:21	Warning: 	File has moved from organicthemes.com/demo/profile/?p=89 to http://organicthemes.com/demo/profile/columns/
+17:39:21	Warning: 	File not added due to mirror cancel: organicthemes.com/demo/profile/headlines/feed/
+17:39:21	Error: 	"mirror stopped by user" (-1) at link organicthemes.com/demo/profile/headlines/feed/ (from organicthemes.com/demo/profile/headlines/)
+17:39:21	Warning: 	File not added due to mirror cancel: organicthemes.com/demo/profile/?p=305
+17:39:21	Error: 	"mirror stopped by user" (-1) at link organicthemes.com/demo/profile/?p=305 (from organicthemes.com/demo/profile/headlines/)
+17:39:21	Warning: 	File not added due to mirror cancel: organicthemes.com/demo/profile/gallery/feed/
+17:39:21	Error: 	"mirror stopped by user" (-1) at link organicthemes.com/demo/profile/gallery/feed/ (from organicthemes.com/demo/profile/gallery/)
+17:39:21	Warning: 	File not added due to mirror cancel: organicthemes.com/demo/profile/?p=45
+17:39:21	Error: 	"mirror stopped by user" (-1) at link organicthemes.com/demo/profile/?p=45 (from organicthemes.com/demo/profile/gallery/)
+17:39:21	Warning: 	Retry after error -2 (Receive Time Out) at link organicthemes.com/demo/profile/files/2012/12/print_09.png (from organicthemes.com/demo/profile/gallery/)
+17:39:21	Warning: 	Retry after error -2 (Receive Time Out) at link organicthemes.com/demo/profile/files/2012/12/print_10.png (from organicthemes.com/demo/profile/gallery/)
+17:39:21	Warning: 	Retry after error -2 (Receive Time Out) at link organicthemes.com/demo/profile/files/2012/12/slide_01b.png (from organicthemes.com/demo/profile/gallery/)
+17:39:21	Warning: 	File not added due to mirror cancel: organicthemes.com/demo/profile/accordion/feed/
+17:39:21	Error: 	"mirror stopped by user" (-1) at link organicthemes.com/demo/profile/accordion/feed/ (from organicthemes.com/demo/profile/accordion/)
+17:39:21	Warning: 	File not added due to mirror cancel: organicthemes.com/demo/profile/?p=170
+17:39:21	Error: 	"mirror stopped by user" (-1) at link organicthemes.com/demo/profile/?p=170 (from organicthemes.com/demo/profile/accordion/)
+17:39:21	Warning: 	File not added due to mirror cancel: organicthemes.com/demo/profile/tabs/feed/
+17:39:21	Error: 	"mirror stopped by user" (-1) at link organicthemes.com/demo/profile/tabs/feed/ (from organicthemes.com/demo/profile/tabs/)
+17:39:21	Warning: 	File not added due to mirror cancel: organicthemes.com/demo/profile/?p=180
+17:39:21	Error: 	"mirror stopped by user" (-1) at link organicthemes.com/demo/profile/?p=180 (from organicthemes.com/demo/profile/tabs/)
+17:39:21	Warning: 	File not added due to mirror cancel: organicthemes.com/demo/profile/toggles/feed/
+17:39:21	Error: 	"mirror stopped by user" (-1) at link organicthemes.com/demo/profile/toggles/feed/ (from organicthemes.com/demo/profile/toggles/)
+17:39:21	Warning: 	File not added due to mirror cancel: organicthemes.com/demo/profile/?p=187
+17:39:21	Error: 	"mirror stopped by user" (-1) at link organicthemes.com/demo/profile/?p=187 (from organicthemes.com/demo/profile/toggles/)
+17:39:21	Warning: 	File not added due to mirror cancel: organicthemes.com/demo/profile/modal-box/feed/
+17:39:21	Error: 	"mirror stopped by user" (-1) at link organicthemes.com/demo/profile/modal-box/feed/ (from organicthemes.com/demo/profile/modal-box/)
+17:39:21	Warning: 	File not added due to mirror cancel: organicthemes.com/demo/profile/?p=503
+17:39:21	Error: 	"mirror stopped by user" (-1) at link organicthemes.com/demo/profile/?p=503 (from organicthemes.com/demo/profile/modal-box/)
+17:39:21	Warning: 	File not added due to mirror cancel: organicthemes.com/demo/profile/slideshow/feed/
+17:39:21	Error: 	"mirror stopped by user" (-1) at link organicthemes.com/demo/profile/slideshow/feed/ (from organicthemes.com/demo/profile/slideshow/)
+17:39:21	Warning: 	File not added due to mirror cancel: organicthemes.com/demo/profile/?p=402
+17:39:21	Error: 	"mirror stopped by user" (-1) at link organicthemes.com/demo/profile/?p=402 (from organicthemes.com/demo/profile/slideshow/)
+17:39:21	Warning: 	File not added due to mirror cancel: organicthemes.com/demo/profile/portfolio/feed/
+17:39:21	Error: 	"mirror stopped by user" (-1) at link organicthemes.com/demo/profile/portfolio/feed/ (from organicthemes.com/demo/profile/portfolio/)
+17:39:21	Warning: 	File not added due to mirror cancel: organicthemes.com/demo/profile/?p=386
+17:39:21	Error: 	"mirror stopped by user" (-1) at link organicthemes.com/demo/profile/?p=386 (from organicthemes.com/demo/profile/portfolio/)
+17:39:21	Warning: 	File not added due to mirror cancel: organicthemes.com/demo/profile/2012/12/29/concept-art-of-blizzard/
+17:39:21	Error: 	"mirror stopped by user" (-1) at link organicthemes.com/demo/profile/2012/12/29/concept-art-of-blizzard/ (from organicthemes.com/demo/profile/portfolio/)
+17:39:21	Warning: 	File not added due to mirror cancel: organicthemes.com/demo/profile/2012/12/29/colorful-cartoons-of-sam-nielson/
+17:39:21	Error: 	"mirror stopped by user" (-1) at link organicthemes.com/demo/profile/2012/12/29/colorful-cartoons-of-sam-nielson/ (from organicthemes.com/demo/profile/portfolio/)
+17:39:21	Warning: 	File not added due to mirror cancel: organicthemes.com/demo/profile/2012/12/29/mattias-adolfsson-illustration/
+17:39:21	Error: 	"mirror stopped by user" (-1) at link organicthemes.com/demo/profile/2012/12/29/mattias-adolfsson-illustration/ (from organicthemes.com/demo/profile/portfolio/)
+17:39:21	Warning: 	File not added due to mirror cancel: organicthemes.com/demo/profile/2012/12/29/audrey-kawasaki/
+17:39:21	Error: 	"mirror stopped by user" (-1) at link organicthemes.com/demo/profile/2012/12/29/audrey-kawasaki/ (from organicthemes.com/demo/profile/portfolio/)
+17:39:21	Warning: 	File not added due to mirror cancel: organicthemes.com/demo/profile/2012/12/29/life-after-death/
+17:39:21	Error: 	"mirror stopped by user" (-1) at link organicthemes.com/demo/profile/2012/12/29/life-after-death/ (from organicthemes.com/demo/profile/portfolio/)
+17:39:21	Warning: 	File not added due to mirror cancel: organicthemes.com/demo/profile/2012/12/29/paris-fashions/
+17:39:21	Error: 	"mirror stopped by user" (-1) at link organicthemes.com/demo/profile/2012/12/29/paris-fashions/ (from organicthemes.com/demo/profile/portfolio/)
+17:39:21	Warning: 	File not added due to mirror cancel: organicthemes.com/demo/profile/2012/12/29/forest-through-the-trees/
+17:39:21	Error: 	"mirror stopped by user" (-1) at link organicthemes.com/demo/profile/2012/12/29/forest-through-the-trees/ (from organicthemes.com/demo/profile/portfolio/)
+17:39:29	Error: 	Exit requested by shell or user
+17:39:29	Error: 	"" (-1) at link organicthemes.com/demo/profile/files/2012/12/portfolio_01.jpg (from organicthemes.com/demo/profile/portfolio/)
+17:39:29	Error: 	Exit requested by shell or user
+
+HTTrack Website Copier/3.48-19 mirror complete in 16 minutes 33 seconds : 205 links scanned, 163 files written (11712067 bytes overall) [12554740 bytes received at 12643 bytes/sec], 270004 bytes transferred using HTTP compression in 2 files, ratio 31%
+(29 errors, 43 warnings, 0 messages)
+* * MIRROR ABORTED! * *
+The current temporary cache is required for any update operation and only contains data downloaded during the present aborted session.
+The former cache might contain more complete information; if you do not want to lose that information, you have to restore it and delete the current cache.
+This can easily be done here by erasing the hts-cache/new.* files]
